@@ -6,7 +6,7 @@ console.log(phone);
 
 <template>
   <div class="card">
-    <img :src="phone.img" alt="Product Image" class="card-img" />
+    <img  :src="phone.img" alt="Product Image" class="card-img" />
     <div class="card-text">
       <h2 class="card-title">{{ phone.name }}</h2>
       <p class="card-description"> Questions</p>
@@ -30,9 +30,12 @@ console.log(phone);
 }
 
 .card-img {
-  width: 100%;
-  height: 120px;
-  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 9px;
+  width: 90%;
+  height: 230px;
+
+  
 }
 
 .card-text {
