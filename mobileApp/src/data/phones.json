@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
+        "name": "Samsung",
+        "imagesGallery":[
+            {
+                "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria1.jpg",
+                "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria1s.jpg",
+                "alt": "Description for Image 1",
+                "title": "Title 1"
+            },
+            {
+                "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria1.jpg",
+                "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria1s.jpg",
+                "alt": "Description for Image 1",
+                "title": "Title 1"
+            },
+            {
+                "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria1.jpg",
+                "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria1s.jpg",
+                "alt": "Description for Image 1",
+                "title": "Title 1"
+            }
+        
+        ],
+        "optionsColor": [
+            {
+                "id": 1,
+                "label": "black",
+                "price": "160",
+                "optionsMemory": [
+                    {
+                        "id": 1,
+                        "label": "320",
+                        "isAvailable": true
+                    }
+                ]
+            }
+            
+            
+        ]
+    },
+            
+    {
+        "id": 2,
+        "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
+        "name": "Math"
+    }
+]
