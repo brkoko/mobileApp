@@ -24,7 +24,7 @@
       "description": "Great iPhone",
     }
   ];
-
+console.log(items[0]);
     const selectedItem = ref();
     const filteredItems = ref();
     const searchItems = (event) => {
@@ -32,10 +32,10 @@
     let query = event.query;
     let _filteredItems = [];
 
-    for (let i = 0; i < items.value.length; i++) {
-        let item = items.value[i];
+    for (let i = 1; i < items[2]; i++) {
+        let item = items[i];
 
-        if (item.label.toLowerCase().indexOf(query.toLowerCase()) === 0) {
+        if (item.name.toLowerCase().indexOf(query.toLowerCase()) === 0) {
             _filteredItems.push(item);
         }
     }
