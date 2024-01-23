@@ -1,6 +1,6 @@
 <script setup>
     import NavBar from "@/components/NavBar.vue";
- 
+    import Footer from "@/components/Footer.vue";
     import { useRoute } from 'vue-router';
     import phoneData from '@/data/phones.json';
     import Gallery from '@/components/Gallery.vue';
@@ -23,6 +23,7 @@
           <!-- <p class="price">Price: ${{ phone.price }}</p> -->
         </div>
       </div>
+      <Footer/>
     </div>
   </template>
   

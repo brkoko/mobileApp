@@ -3,6 +3,7 @@
       <div class="logo">My Logo</div>
       <div class="nav-items">
         <router-link to="/" class="nav-link">Home</router-link>
+        <router-link to="/compare" class="nav-link">Compare</router-link>
         <router-link to="/about" class="nav-link">About</router-link>
       </div>
     </div>
@@ -17,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, #e2c4bd, #feb47b); /* Modified gradient */
+    background: linear-gradient(to right, #6488ff, #2949e9); /* Modified gradient */
     color: white;
     padding: 10px;
     border-radius: 10px; /* Optional: Add border-radius for a rounded look */
@@ -47,7 +48,7 @@
 }
   
   .nav-link:hover {
-    background-color: #ca6060;
+    background-color: #3b38f2;
   }
   </style>
   

@@ -7,8 +7,8 @@
     const { phone } = defineProps(['phone']);
  
    
-const images = ref(phone.imagesGallery);
-const responsiveOptions = ref([
+    const images = ref(phone.imagesGallery);
+    const responsiveOptions = ref([
     {
         breakpoint: '1300px',
         numVisible: 4
@@ -17,7 +17,7 @@ const responsiveOptions = ref([
         breakpoint: '575px',
         numVisible: 1
     }
-]);
+    ]);
 </script>
 <template>
     

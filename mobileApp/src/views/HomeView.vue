@@ -2,6 +2,7 @@
 import { ref, watch } from "vue";
 import Card from "@/components/Card.vue";
 import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/Footer.vue";
 import phoneData from '@/data/phones.json'
 
 const phones= ref(phoneData)
@@ -30,6 +31,7 @@ const phones= ref(phoneData)
       />
     </div>
  </div>
+ <Footer/>
 </template>
 <style scoped>
   .container {
@@ -48,7 +50,7 @@ const phones= ref(phoneData)
   }
   header input{
     border: none;
-    background-color: bisque;
+    background-color: #c6d3fd;
     padding: 10px;
     border-radius: 5px;
 
