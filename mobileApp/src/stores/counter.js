@@ -1,12 +1,17 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
-export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0)
-  const doubleCount = computed(() => count.value * 2)
-  function increment() {
-    count.value++
+
+export const useComparePhone = defineStore('compare', () => {
+  const leftCompareId = ref(0)
+  const rightCompareId = ref(0)
+
+  const changeIdLeft = (id) => {
+    leftCompareId.value=id
   }
 
-  return { count, doubleCount, increment }
+  const changeIdRight = (id) => {
+    rightCompareId.value=id
+  }
+  return { rightCompareId, leftCompareId, changeIdLeft, changeIdRight}
 })

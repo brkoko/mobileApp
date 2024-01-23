@@ -3,6 +3,7 @@
     import NavBar from "@/components/NavBar.vue";
     import Footer from "@/components/Footer.vue";   
     import LeftCompare from "@/components/LeftCompare.vue";   
+    import RightCompare from "@/components/RightCompare.vue";   
     import { ref } from 'vue';
    
     
@@ -24,24 +25,9 @@
       "description": "Great iPhone",
     }
   ];
-console.log(items[0]);
-    const selectedItem = ref();
-    const filteredItems = ref();
-    const searchItems = (event) => {
+
     //in a real application, make a request to a remote url with the query and return filtered results, for demo we filter at client side
-    let query = event.query;
-    let _filteredItems = [];
-
-    for (let i = 1; i < items[2]; i++) {
-        let item = items[i];
-
-        if (item.name.toLowerCase().indexOf(query.toLowerCase()) === 0) {
-            _filteredItems.push(item);
-        }
-    }
-
-    filteredItems.value = _filteredItems;
-    };
+    
 </script>
 
 <template>
@@ -50,9 +36,7 @@ console.log(items[0]);
     
   <div class="split-screen">
     <div class="left-section">
-    <div class="card flex justify-content-center">
-        <AutoComplete v-model="selectedItem" :suggestions="filteredItems" @complete="searchItems" :virtualScrollerOptions="{ itemSize: 38 }" optionLabel="label" dropdown />
-    </div>
+    
       <LeftCompare/>
       <div>
         Left Section Contentasddddddddddddd
@@ -60,8 +44,8 @@ console.log(items[0]);
     </div>
     <div class="vertical-line"></div>
     <div class="right-section">
-      <!-- Your Vue component for the right section goes here -->sads
-      <div>
+      <RightCompare/>      
+    <div>
         Right Section Content
       </div>
     </div>

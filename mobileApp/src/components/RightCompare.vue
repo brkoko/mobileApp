@@ -6,8 +6,8 @@ import phonesData from "@/data/phones.json"
   const comparePhone = useComparePhone();
   const selectedPhone = ref( );
   watch(selectedPhone, (newValue) => {
-    comparePhone.changeIdLeft(newValue)
-    console.log(comparePhone.leftCompareId)
+    comparePhone.changeIdRight(newValue)
+    console.log(comparePhone.rightCompareId)
 })
 </script>
 <template>
@@ -34,7 +34,7 @@ import phonesData from "@/data/phones.json"
         <div class="phone-specs">
           <h2>nie </h2>
           <ul>
-            <li><strong>Display:</strong>  {{comparePhone.leftCompareId.name}} </li>
+            <li><strong>Display:</strong>  {{comparePhone.rightCompareId.name}} </li>
             <li><strong>Camera:</strong>  {{selectedPhone?.name}} </li>
             <li><strong>RAM:</strong>  nie</li>
             <!-- Add more specifications as needed -->
