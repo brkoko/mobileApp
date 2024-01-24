@@ -1,30 +1,27 @@
 <script setup>
-    import NavBar from "@/components/NavBar.vue";
-    import Footer from "@/components/Footer.vue";
-    import { useRoute } from 'vue-router';
-    import phoneData from '@/data/phones.json';
-    import Gallery from '@/components/Gallery.vue';
-
-    const route = useRoute()
-
-    const phoneId = route.params.id
-    const phone = phoneData.find(p => p.id == phoneId)
- </script>
+  import NavBar from "@/components/NavBar.vue";
+  import Footer from "@/components/Footer.vue";
+  import { useRoute } from 'vue-router';
+  import phoneData from '@/data/phones.json';
+  import Gallery from '@/components/Gallery.vue';
+  const route = useRoute()
+  const phoneId = route.params.id
+  const phone = phoneData.find(p => p.id == phoneId)
+</script>
 <template>
-    <div>
-      <NavBar />
-      <div style="display: flex; margin-right: 20px;">
-        <Gallery :phone="phone" />
-  
-        <div class="mobile-details">
-          <h1>{{ phone.name }}</h1>
-          <h2>{{ phone.model }}</h2>
-          <p>{{ phone.description }}</p>
-          <!-- <p class="price">Price: ${{ phone.price }}</p> -->
-        </div>
+  <div>
+    <NavBar />
+    <div style="display: flex; margin-right: 20px;">
+      <Gallery :phone="phone" />
+      <div class="mobile-details">
+        <h1>{{ phone.name }}</h1>
+        <h2>{{ phone.model }}</h2>
+        <p>{{ phone.description }}</p>
+        <p class="price">Price: ${{ phone.price }}</p>
       </div>
-      <Footer/>
     </div>
+    <Footer/>
+  </div>
   </template>
   
   <style scoped>

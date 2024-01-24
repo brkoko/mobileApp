@@ -1,8 +1,8 @@
 <script setup>
 import Dropdown from 'primevue/dropdown';
 import phonesData from "@/data/phones.json"
-  import { ref, watch } from "vue";
-  import {useComparePhone} from '@/stores/counter'
+import { ref, watch } from "vue";
+import {useComparePhone} from '@/stores/counter'
   const comparePhone = useComparePhone();
   const selectedPhone = ref( );
   watch(selectedPhone, (newValue) => {
@@ -11,7 +11,7 @@ import phonesData from "@/data/phones.json"
 })
 </script>
 <template>
-    <div class="left-section">
+    <div class="right-section">
       <div class="card flex justify-content-center">
         <Dropdown v-model="selectedPhone" :options="phonesData" filter optionLabel="name" placeholder="Select a Country" class="w-full md:w-14rem">
             <template #value="slotProps">
@@ -32,12 +32,16 @@ import phonesData from "@/data/phones.json"
       <div class="phone-details">
         <!-- <img :src="" :alt="vzber" class="image"> -->
         <div class="phone-specs">
-          <h2>nie </h2>
+          <h2>{{comparePhone.rightCompareId.name}}</h2>
           <ul>
-            <li><strong>Display:</strong>  {{comparePhone.rightCompareId.name}} </li>
-            <li><strong>Camera:</strong>  {{selectedPhone?.name}} </li>
-            <li><strong>RAM:</strong>  nie</li>
-            <!-- Add more specifications as needed -->
+            <li><strong>Description:</strong>  {{comparePhone.rightCompareId.description}} </li>
+            <li><strong>Display:</strong>  {{comparePhone.rightCompareId.display}} </li>
+            <li><strong>Resolution:</strong>  {{comparePhone.rightCompareId.resolution}}</li>
+            <li><strong>Size:</strong>  {{comparePhone.rightCompareId.size}}</li>
+            <li><strong>Camera:</strong>  {{comparePhone.rightCompareId.camera}}</li>
+            <li><strong>Battery:</strong>  {{comparePhone.rightCompareId.battery}}</li>
+            <li><strong>Price:</strong>  {{comparePhone.rightCompareId.price}}</li>
+           
           </ul>
         </div>
       </div>
@@ -47,7 +51,7 @@ import phonesData from "@/data/phones.json"
 
   
   <style scoped>
-  .left-section {
+  .right-section {
     flex: 1;
     height: 100%;
     overflow: hidden;

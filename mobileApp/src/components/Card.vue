@@ -9,7 +9,7 @@ console.log(phone);
     <img  :src="phone.img" alt="Product Image" class="card-img" />
     <div class="card-text">
       <h2 class="card-title">{{ phone.name }}</h2>
-      <p class="card-description"> Questions</p>
+      <p class="card-price"> {{phone.price}}</p>
     </div>
   </div>
 </template>
@@ -32,7 +32,7 @@ console.log(phone);
 .card-img {
   margin-top: 10px;
   margin-left: 9px;
-  width: 90%;
+  width: 95%;
   height: 230px;
 
   
@@ -47,8 +47,8 @@ console.log(phone);
   margin-bottom: 5px;
 }
 
-.card-description {
-  font-size: 0.8rem;
+.card-price {
+  font-size: 1.5rem;
   color: #555;
 }
 </style>

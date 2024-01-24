@@ -17,9 +17,7 @@ const phones= ref(phoneData)
 <template>
   <NavBar></NavBar>
   <div class="container">
-   
     <header>
-      
       <input v-model.trim="search" type="text" placeholder="Search...">
    </header>
    <div class="options-container">
@@ -27,7 +25,6 @@ const phones= ref(phoneData)
         :key="phone.id"  
         :phone="phone" 
         @click="$router.push(`/phone/${phone.id}`)"
-        
       />
     </div>
  </div>

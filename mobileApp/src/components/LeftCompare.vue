@@ -1,8 +1,8 @@
 <script setup>
 import Dropdown from 'primevue/dropdown';
 import phonesData from "@/data/phones.json"
-  import { ref, watch } from "vue";
-  import {useComparePhone} from '@/stores/counter'
+import { ref, watch } from "vue";
+import {useComparePhone} from '@/stores/counter'
   const comparePhone = useComparePhone();
   const selectedPhone = ref( );
   watch(selectedPhone, (newValue) => {
@@ -32,12 +32,16 @@ import phonesData from "@/data/phones.json"
       <div class="phone-details">
         <!-- <img :src="" :alt="vzber" class="image"> -->
         <div class="phone-specs">
-          <h2>nie </h2>
+          <h2>{{comparePhone.leftCompareId.name}}</h2>
           <ul>
-            <li><strong>Display:</strong>  {{comparePhone.leftCompareId.name}} </li>
-            <li><strong>Camera:</strong>  {{selectedPhone?.name}} </li>
-            <li><strong>RAM:</strong>  nie</li>
-            <!-- Add more specifications as needed -->
+            <li><strong>Description:</strong>  {{comparePhone.leftCompareId.description}} </li>
+            <li><strong>Display:</strong>  {{comparePhone.leftCompareId.display}} </li>
+            <li><strong>Resolution:</strong>  {{comparePhone.leftCompareId.resolution}}</li>
+            <li><strong>Size:</strong>  {{comparePhone.leftCompareId.size}}</li>
+            <li><strong>Camera:</strong>  {{comparePhone.leftCompareId.camera}}</li>
+            <li><strong>Battery:</strong>  {{comparePhone.leftCompareId.battery}}</li>
+            <li><strong>Price:</strong>  {{comparePhone.leftCompareId.price}}</li>
+           
           </ul>
         </div>
       </div>
