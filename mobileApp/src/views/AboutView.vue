@@ -6,31 +6,22 @@
   <NavBar/>
  
   <div class="about-page">
-    <h1>About Us</h1>
-    <p>
-      Welcome to our website! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in augue ut justo consectetur ullamcorper.
-    </p>
-    <p>
-      Our mission is to provide valuable information and services to our users. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </p>
-    <h2>Our Team</h2>
-    <ul>
-      <li>John Doe - CEO</li>
-      <li>Jane Smith - CTO</li>
-      <li>Bob Johnson - Marketing Manager</li>
-    </ul>
-
-    <div class="about-image">
-      <img src="https://via.placeholder.com/400" alt="Team Image" />
-    </div>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ligula nec ex venenatis, ac cursus tellus ultrices.
-    </p>
-
-
+  <h1>About Us</h1>
+  <p>
+    Welcome to MobileSpecsHub! Your go-to source for comprehensive information on the latest mobile devices. Whether you're a tech enthusiast or a casual shopper, we've got you covered with detailed specifications, reviews, and more.
+  </p>
+  <p>
+    Our mission is to empower users with the knowledge they need to make informed decisions when choosing their next mobile device. From screen resolutions to camera capabilities, we aim to provide accurate and up-to-date information.
+  </p>
+  <h2>Our Team</h2>
+  <ul>
+    <li>Boris Kostalik - CEO</li>
+  </ul>
+  <div class="about-image">
+    <img src="https://t4.ftcdn.net/jpg/05/36/24/13/360_F_536241340_GsrsNhcWC0hyTVaJLilNafyDw6fl0cC8.jpg" alt="Team Image" />
   </div>
-  <Footer/>
+</div>
+<Footer/>
 </template>
 
 <style scoped>
