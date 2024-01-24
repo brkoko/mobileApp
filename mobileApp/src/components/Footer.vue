@@ -4,7 +4,7 @@
         <div class="footer-content">
           <div class="footer-section">
             <h3 class="footer-heading">About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in augue ut justo consectetur ullamcorper.</p>
+            <p> Welcome to MobileSpecsHub! Your go-to source for comprehensive information on the latest mobile devices. Whether you're a tech enthusiast or a casual shopper, we've got you covered with detailed specifications, reviews, and more.</p>
           </div>
           <div class="footer-section">
             <h3 class="footer-heading">Contact</h3>
