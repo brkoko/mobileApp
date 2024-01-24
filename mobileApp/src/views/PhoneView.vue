@@ -3,7 +3,7 @@
   import Footer from "@/components/Footer.vue";
   import { useRoute } from 'vue-router';
   import phoneData from '@/data/phones.json';
-  import Gallery from '@/components/Gallery.vue';
+  
   const route = useRoute()
   const phoneId = route.params.id
   const phone = phoneData.find(p => p.id == phoneId)
@@ -12,12 +12,18 @@
   <div>
     <NavBar />
     <div style="display: flex; margin-right: 20px;">
-      <Gallery :phone="phone" />
+      <img :src="phone.img" alt="phone picture" srcset="" style="width: 400px; height: 500px;">
       <div class="mobile-details">
-        <h1>{{ phone.name }}</h1>
-        <h2>{{ phone.model }}</h2>
-        <p>{{ phone.description }}</p>
-        <p class="price">Price: ${{ phone.price }}</p>
+        <h2>{{phone.name}}</h2>
+          <ul>
+            <li><strong>Description:</strong>  {{phone.description}} </li>
+            <li><strong>Display:</strong>  {{phone.display}} </li>
+            <li><strong>Resolution:</strong>  {{phone.resolution}}</li>
+            <li><strong>Size:</strong>  {{phone.size}}</li>
+            <li><strong>Camera:</strong>  {{phone.camera}}</li>
+            <li><strong>Battery:</strong>  {{phone.battery}}</li>
+            <li><strong>Price:</strong>  {{phone.price}}</li>
+          </ul>
       </div>
     </div>
     <Footer/>
@@ -32,7 +38,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 1; /* Take remaining space */
+    flex: 1;
   }
   
   h1 {

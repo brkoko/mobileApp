@@ -13,7 +13,7 @@ import {useComparePhone} from '@/stores/counter'
 <template>
     <div class="right-section">
       <div class="card flex justify-content-center">
-        <Dropdown v-model="selectedPhone" :options="phonesData" filter optionLabel="name" placeholder="Select a Country" class="w-full md:w-14rem">
+        <Dropdown v-model="selectedPhone" :options="phonesData" filter optionLabel="name" placeholder="Select phone" class="w-full md:w-14rem">
             <template #value="slotProps">
                 <div v-if="slotProps.value" class="flex align-items-center">
                     <div>{{ slotProps.value.name }}</div>
@@ -29,7 +29,7 @@ import {useComparePhone} from '@/stores/counter'
             </template>
         </Dropdown>
     </div>
-      <div class="phone-details">
+      <div class="phone-details" v-show="comparePhone.rightCompareId">
         <!-- <img :src="" :alt="vzber" class="image"> -->
         <div class="phone-specs">
           <h2>{{comparePhone.rightCompareId.name}}</h2>

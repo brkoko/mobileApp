@@ -2,7 +2,7 @@
 
     {
       "id": 1,
-      "img": "https://images.samsung.com/africa_en/smartphones/galaxy-s21/buy/galaxy-s21-phantom-violet.png",
+      "img": "https://image.alza.cz/products/SAMO0207b4/SAMO0207b4.jpg?width=500&height=500",
       "name": "Samsung Galaxy S21",
       "description": "Flagship Android phone with amazing features.",
       "display": "6.2 inch",
@@ -10,96 +10,12 @@
       "size": "151.7 x 71.2 x 7.9 mm",
       "camera": "Triple - 12 MP main, 12 MP ultra-wide, 64 MP telephoto",
       "battery": "4000 mAh",
-      "price": "$899",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/SAMO0246c5/SAMO0246c5.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/SAMO0246c5/SAMO0246c5.jpg?width=230&height=230",
-          "alt": "Samsung Galaxy S21 Image 1",
-          "title": "Samsung Galaxy S21 - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "Samsung Galaxy S21 Image 2",
-          "title": "Samsung Galaxy S21 - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "Samsung Galaxy S21 Image 3",
-          "title": "Samsung Galaxy S21 - Image 3"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "img": "https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-13-pro/iphone-13-pro-silver.jpg",
-      "name": "iPhone 13 Pro",
-      "description": "Latest iPhone with cutting-edge technology.",
-      "display": "6.1 inch",
-      "resolution": "2532x1170",
-      "size": "146.7 x 71.5 x 7.7 mm",
-      "camera": "Triple - 12 MP main, 12 MP ultra-wide, 12 MP telephoto",
-      "battery": "3095 mAh",
-      "price": "$999",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/APPLE0228/APPLE0228.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/APPLE0228/APPLE0228.jpg?width=230&height=230",
-          "alt": "iPhone 13 Pro Image 1",
-          "title": "iPhone 13 Pro - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "iPhone 13 Pro Image 2",
-          "title": "iPhone 13 Pro - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "iPhone 13 Pro Image 3",
-          "title": "iPhone 13 Pro - Image 3"
-        }
-      ]
+      "price": "$899"
       
     },
     {
-      "id": 1,
-      "img": "https://image.alza.cz/products/SAMO0246c5/SAMO0246c5.jpg?width=230&height=230",
-      "name": "Samsung Galaxy S21",
-      "description": "Flagship Android phone with amazing features.",
-      "display": "6.2 inch",
-      "resolution": "2400x1080",
-      "size": "151.7 x 71.2 x 7.9 mm",
-      "camera": "Triple - 12 MP main, 12 MP ultra-wide, 64 MP telephoto",
-      "battery": "4000 mAh",
-      "price": "$899",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/SAMO0246c5/SAMO0246c5.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/SAMO0246c5/SAMO0246c5.jpg?width=230&height=230",
-          "alt": "Samsung Galaxy S21 Image 1",
-          "title": "Samsung Galaxy S21 - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "Samsung Galaxy S21 Image 2",
-          "title": "Samsung Galaxy S21 - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "Samsung Galaxy S21 Image 3",
-          "title": "Samsung Galaxy S21 - Image 3"
-        }
-      ]
-    },
-    {
       "id": 2,
-      "img": "https://image.alza.cz/products/APPLE0228/APPLE0228.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/RI038d2/RI038d2.jpg?width=500&height=500",
       "name": "iPhone 13 Pro",
       "description": "Latest iPhone with cutting-edge technology.",
       "display": "6.1 inch",
@@ -107,31 +23,11 @@
       "size": "146.7 x 71.5 x 7.7 mm",
       "camera": "Triple - 12 MP main, 12 MP ultra-wide, 12 MP telephoto",
       "battery": "3095 mAh",
-      "price": "$999",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/APPLE0228/APPLE0228.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/APPLE0228/APPLE0228.jpg?width=230&height=230",
-          "alt": "iPhone 13 Pro Image 1",
-          "title": "iPhone 13 Pro - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "iPhone 13 Pro Image 2",
-          "title": "iPhone 13 Pro - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "iPhone 13 Pro Image 3",
-          "title": "iPhone 13 Pro - Image 3"
-        }
-      ]
+      "price": "$999"
     },
     {
       "id": 3,
-      "img": "https://image.alza.cz/products/SAMO0125c7/SAMO0125c7.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/SPICc373/SPICc373.jpg?width=1000&height=1000",
       "name": "Samsung Galaxy S20",
       "description": "High-performance Android smartphone.",
       "display": "6.2 inch",
@@ -139,63 +35,12 @@
       "size": "151.7 x 69.1 x 7.9 mm",
       "camera": "Triple - 12 MP main, 64 MP telephoto, 12 MP ultra-wide",
       "battery": "4000 mAh",
-      "price": "$799",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/SAMO0125c7/SAMO0125c7.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/SAMO0125c7/SAMO0125c7.jpg?width=230&height=230",
-          "alt": "Samsung Galaxy S20 Image 1",
-          "title": "Samsung Galaxy S20 - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "Samsung Galaxy S20 Image 2",
-          "title": "Samsung Galaxy S20 - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "Samsung Galaxy S20 Image 3",
-          "title": "Samsung Galaxy S20 - Image 3"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "img": "https://image.alza.cz/products/APPLE0185/APPLE0185.jpg?width=230&height=230",
-      "name": "iPhone SE (2022)",
-      "description": "Compact iPhone with the latest processor.",
-      "display": "4.7 inch",
-      "resolution": "1334x750",
-      "size": "138.4 x 67.3 x 7.3 mm",
-      "camera": "Single - 12 MP",
-      "battery": "1821 mAh",
-      "price": "$499",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/APPLE0185/APPLE0185.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/APPLE0185/APPLE0185.jpg?width=230&height=230",
-          "alt": "iPhone SE (2022) Image 1",
-          "title": "iPhone SE (2022) - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "iPhone SE (2022) Image 2",
-          "title": "iPhone SE (2022) - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "iPhone SE (2022) Image 3",
-          "title": "iPhone SE (2022) - Image 3"
-        }
-      ]
+      "price": "$799"
+      
     },
     {
       "id": 5,
-      "img": "https://image.alza.cz/products/SAMO0193c5/SAMO0193c5.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/SAMO0197b2/SAMO0197b2.jpg?width=500&height=500",
       "name": "Samsung Galaxy Note 20 Ultra",
       "description": "Powerful Android phone with S Pen support.",
       "display": "6.9 inch",
@@ -203,31 +48,12 @@
       "size": "164.8 x 77.2 x 8.1 mm",
       "camera": "Triple - 108 MP main, 12 MP periscope telephoto, 12 MP ultra-wide",
       "battery": "4500 mAh",
-      "price": "$1299",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/SAMO0193c5/SAMO0193c5.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/SAMO0193c5/SAMO0193c5.jpg?width=230&height=230",
-          "alt": "Samsung Galaxy Note 20 Ultra Image 1",
-          "title": "Samsung Galaxy Note 20 Ultra - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "Samsung Galaxy Note 20 Ultra Image 2",
-          "title": "Samsung Galaxy Note 20 Ultra - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "Samsung Galaxy Note 20 Ultra Image 3",
-          "title": "Samsung Galaxy Note 20 Ultra - Image 3"
-        }
-      ]
+      "price": "$1299"
+      
     },
     {
       "id": 6,
-      "img": "https://image.alza.cz/products/APPLE0083/APPLE0083.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/SPICc316/SPICc316.jpg?width=500&height=500",
       "name": "iPhone 12 Mini",
       "description": "Compact iPhone with a smaller form factor.",
       "display": "5.4 inch",
@@ -235,31 +61,11 @@
       "size": "131.5 x 64.2 x 7.4 mm",
       "camera": "Dual - 12 MP main, 12 MP ultra-wide",
       "battery": "2227 mAh",
-      "price": "$699",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/APPLE0083/APPLE0083.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/APPLE0083/APPLE0083.jpg?width=230&height=230",
-          "alt": "iPhone 12 Mini Image 1",
-          "title": "iPhone 12 Mini - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "iPhone 12 Mini Image 2",
-          "title": "iPhone 12 Mini - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "iPhone 12 Mini Image 3",
-          "title": "iPhone 12 Mini - Image 3"
-        }
-      ]
+      "price": "$699"
     },
     {
       "id": 7,
-      "img": "https://image.alza.cz/products/SAMO0205c4/SAMO0205c4.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/SAMO0223b3/SAMO0223b3.jpg?width=500&height=500",
       "name": "Samsung Galaxy A52",
       "description": "Mid-range Android phone with a sleek design.",
       "display": "6.5 inch",
@@ -267,31 +73,11 @@
       "size": "159.9 x 75.1 x 8.4 mm",
       "camera": "Quad - 64 MP main, 12 MP ultra-wide, 5 MP macro, 5 MP depth",
       "battery": "4500 mAh",
-      "price": "$449",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/SAMO0205c4/SAMO0205c4.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/SAMO0205c4/SAMO0205c4.jpg?width=230&height=230",
-          "alt": "Samsung Galaxy A52 Image 1",
-          "title": "Samsung Galaxy A52 - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "Samsung Galaxy A52 Image 2",
-          "title": "Samsung Galaxy A52 - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "Samsung Galaxy A52 Image 3",
-          "title": "Samsung Galaxy A52 - Image 3"
-        }
-      ]
+      "price": "$449"
     },
     {
       "id": 8,
-      "img": "https://image.alza.cz/products/APPLE0303/APPLE0303.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/RI036b2/RI036b2.jpg?width=500&height=500",
       "name": "iPhone 13",
       "description": "Latest iPhone with advanced camera capabilities.",
       "display": "6.1 inch",
@@ -299,31 +85,11 @@
       "size": "146.7 x 71.5 x 7.7 mm",
       "camera": "Dual - 12 MP main, 12 MP ultra-wide",
       "battery": "3095 mAh",
-      "price": "$1099",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/APPLE0303/APPLE0303.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/APPLE0303/APPLE0303.jpg?width=230&height=230",
-          "alt": "iPhone 13 Image 1",
-          "title": "iPhone 13 - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "iPhone 13 Image 2",
-          "title": "iPhone 13 - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "iPhone 13 Image 3",
-          "title": "iPhone 13 - Image 3"
-        }
-      ]
+      "price": "$1099"
     },
     {
       "id": 9,
-      "img": "https://image.alza.cz/products/SAMO0162c7/SAMO0162c7.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/SSAMO0169b2/SSAMO0169b2.jpg?width=500&height=500",
       "name": "Samsung Galaxy S10",
       "description": "Premium Android phone with a stunning display.",
       "display": "6.1 inch",
@@ -331,31 +97,11 @@
       "size": "149.9 x 70.4 x 7.8 mm",
       "camera": "Triple - 12 MP main, 12 MP telephoto, 16 MP ultra-wide",
       "battery": "3400 mAh",
-      "price": "$699",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/SAMO0162c7/SAMO0162c7.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/SAMO0162c7/SAMO0162c7.jpg?width=230&height=230",
-          "alt": "Samsung Galaxy S10 Image 1",
-          "title": "Samsung Galaxy S10 - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "Samsung Galaxy S10 Image 2",
-          "title": "Samsung Galaxy S10 - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "Samsung Galaxy S10 Image 3",
-          "title": "Samsung Galaxy S10 - Image 3"
-        }
-      ]
+      "price": "$699"
     },
     {
       "id": 10,
-      "img": "https://image.alza.cz/products/APPLE0190/APPLE0190.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/RI040b2/RI040b2.jpg?width=1000&height=1000",
       "name": "iPhone SE (2020)",
       "description": "Affordable iPhone with a compact design.",
       "display": "4.7 inch",
@@ -363,31 +109,11 @@
       "size": "138.4 x 67.3 x 7.3 mm",
       "camera": "Single - 12 MP",
       "battery": "1821 mAh",
-      "price": "$399",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/APPLE0190/APPLE0190.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/APPLE0190/APPLE0190.jpg?width=230&height=230",
-          "alt": "iPhone SE (2020) Image 1",
-          "title": "iPhone SE (2020) - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "iPhone SE (2020) Image 2",
-          "title": "iPhone SE (2020) - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "iPhone SE (2020) Image 3",
-          "title": "iPhone SE (2020) - Image 3"
-        }
-      ]
+      "price": "$399"
     },
     {
       "id": 11,
-      "img": "https://image.alza.cz/products/APPLE0355/APPLE0355.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/RI045b1/RI045b1.jpg?width=1000&height=1000",
       "name": "iPhone 15",
       "description": "The latest iPhone with revolutionary features.",
       "display": "6.4 inch",
@@ -395,31 +121,11 @@
       "size": "150.9 x 74.2 x 8.1 mm",
       "camera": "Quad - 108 MP main, 12 MP telephoto, 16 MP ultra-wide, TOF 3D LiDAR scanner",
       "battery": "4100 mAh",
-      "price": "$1299",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/APPLE0355/APPLE0355.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/APPLE0355/APPLE0355.jpg?width=230&height=230",
-          "alt": "iPhone 15 Image 1",
-          "title": "iPhone 15 - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "iPhone 15 Image 2",
-          "title": "iPhone 15 - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "iPhone 15 Image 3",
-          "title": "iPhone 15 - Image 3"
-        }
-      ]
+      "price": "$1299"
     },
     {
       "id": 12,
-      "img": "https://image.alza.cz/products/APPLE0356/APPLE0356.jpg?width=230&height=230",
+      "img": "https://image.alza.cz/products/RI047b4/RI047b4.jpg?width=1000&height=1000",
       "name": "iPhone 15 Pro",
       "description": "Pro-level iPhone with enhanced performance and features.",
       "display": "6.7 inch",
@@ -427,27 +133,7 @@
       "size": "160.8 x 78.1 x 8.3 mm",
       "camera": "Quad - 108 MP main, 12 MP telephoto, 16 MP ultra-wide, TOF 3D LiDAR scanner",
       "battery": "4500 mAh",
-      "price": "$1499",
-      "imagesGallery": [
-        {
-          "itemImageSrc": "https://image.alza.cz/products/APPLE0356/APPLE0356.jpg?width=230&height=230",
-          "thumbnailImageSrc": "https://image.alza.cz/products/APPLE0356/APPLE0356.jpg?width=230&height=230",
-          "alt": "iPhone 15 Pro Image 1",
-          "title": "iPhone 15 Pro - Image 1"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg",
-          "alt": "iPhone 15 Pro Image 2",
-          "title": "iPhone 15 Pro - Image 2"
-        },
-        {
-          "itemImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg",
-          "thumbnailImageSrc": "https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg",
-          "alt": "iPhone 15 Pro Image 3",
-          "title": "iPhone 15 Pro - Image 3"
-        }
-      ]
+      "price": "$1499"
     }
     
 ]

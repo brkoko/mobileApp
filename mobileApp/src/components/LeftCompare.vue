@@ -7,13 +7,13 @@ import {useComparePhone} from '@/stores/counter'
   const selectedPhone = ref( );
   watch(selectedPhone, (newValue) => {
     comparePhone.changeIdLeft(newValue)
-    console.log(comparePhone.leftCompareId)
 })
+console.log(comparePhone.leftCompareId.description)
 </script>
 <template>
-    <div class="left-section">
+    <div class="left-section" >
       <div class="card flex justify-content-center">
-        <Dropdown v-model="selectedPhone" :options="phonesData" filter optionLabel="name" placeholder="Select a Country" class="w-full md:w-14rem">
+        <Dropdown v-model="selectedPhone" :options="phonesData" filter optionLabel="name" placeholder="Select phone" class="w-full md:w-14rem">
             <template #value="slotProps">
                 <div v-if="slotProps.value" class="flex align-items-center">
                     <div>{{ slotProps.value.name }}</div>
@@ -29,7 +29,7 @@ import {useComparePhone} from '@/stores/counter'
             </template>
         </Dropdown>
     </div>
-      <div class="phone-details">
+      <div class="phone-details" v-show="comparePhone.leftCompareId">
         <!-- <img :src="" :alt="vzber" class="image"> -->
         <div class="phone-specs">
           <h2>{{comparePhone.leftCompareId.name}}</h2>
@@ -41,7 +41,6 @@ import {useComparePhone} from '@/stores/counter'
             <li><strong>Camera:</strong>  {{comparePhone.leftCompareId.camera}}</li>
             <li><strong>Battery:</strong>  {{comparePhone.leftCompareId.battery}}</li>
             <li><strong>Price:</strong>  {{comparePhone.leftCompareId.price}}</li>
-           
           </ul>
         </div>
       </div>

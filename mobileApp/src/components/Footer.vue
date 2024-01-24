@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2022 Your Website. All rights reserved.</p>
+          <p>&copy; 2024 Kostalik</p>
         </div>
       </footer>
 

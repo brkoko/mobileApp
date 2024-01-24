@@ -32,7 +32,7 @@ console.log(phone);
 .card-img {
   margin-top: 10px;
   margin-left: 9px;
-  width: 95%;
+  width: 90%;
   height: 230px;
 
   
